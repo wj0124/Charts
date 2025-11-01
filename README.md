@@ -43,7 +43,5 @@ LineChartDemoView(data: arr1) { y in
     }
     return ""
 }
-<img width="590" height="1186" alt="image" src="https://github.com/user-attachments/assets/c8d1fbec-01a7-413d-a2ae-c56b4e17e99f" />
-
 
 

@@ -10,7 +10,9 @@
 - 支持通过 `xFormatter` / `yFormatter` 自定义标签格式  
 - 支持 **字面量初始化方式**（可直接用数组或字典定义数据点）  
   
-
+<p align="center">
+  <img src="Screenshot.png" alt="Chart Demo" width="400"/>
+</p>
 ---
 
 ## 💡 示例代码

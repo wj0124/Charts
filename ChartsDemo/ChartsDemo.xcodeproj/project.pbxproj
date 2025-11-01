@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A031839F2EB6146A00CC3816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03183992EB6146A00CC3816 /* Assets.xcassets */; };
+		A03183A12EB6146A00CC3816 /* ChartsDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A031839A2EB6146A00CC3816 /* ChartsDemoApp.swift */; };
+		A03183A22EB6146A00CC3816 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A031839B2EB6146A00CC3816 /* ContentView.swift */; };
+		A03183A32EB6146A00CC3816 /* LineChartDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A031839C2EB6146A00CC3816 /* LineChartDemoView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A031836F2EB5E98D00CC3816 /* ChartsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03183992EB6146A00CC3816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A031839A2EB6146A00CC3816 /* ChartsDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsDemoApp.swift; sourceTree = "<group>"; };
+		A031839B2EB6146A00CC3816 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A031839C2EB6146A00CC3816 /* LineChartDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A03183712EB5E98D00CC3816 /* ChartsDemo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ChartsDemo;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A031836C2EB5E98D00CC3816 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		A03183662EB5E98D00CC3816 = {
 			isa = PBXGroup;
 			children = (
-				A03183712EB5E98D00CC3816 /* ChartsDemo */,
+				A031839E2EB6146A00CC3816 /* ChartsDemo */,
 				A03183702EB5E98D00CC3816 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,17 @@
 				A031836F2EB5E98D00CC3816 /* ChartsDemo.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A031839E2EB6146A00CC3816 /* ChartsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A03183992EB6146A00CC3816 /* Assets.xcassets */,
+				A031839A2EB6146A00CC3816 /* ChartsDemoApp.swift */,
+				A031839B2EB6146A00CC3816 /* ContentView.swift */,
+				A031839C2EB6146A00CC3816 /* LineChartDemoView.swift */,
+			);
+			path = ChartsDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +73,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				A03183712EB5E98D00CC3816 /* ChartsDemo */,
 			);
 			name = ChartsDemo;
 			packageProductDependencies = (
@@ -109,6 +120,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A031839F2EB6146A00CC3816 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03183A12EB6146A00CC3816 /* ChartsDemoApp.swift in Sources */,
+				A03183A22EB6146A00CC3816 /* ContentView.swift in Sources */,
+				A03183A32EB6146A00CC3816 /* LineChartDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

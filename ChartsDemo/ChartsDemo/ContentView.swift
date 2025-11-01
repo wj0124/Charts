@@ -25,7 +25,7 @@ struct ContentView: View {
                 
                 
                 LineChartDemoView(data: arr1) { y in
-                    "航速度:\(y)kn"
+                    "航速:\(y)kn"
                 } xFormatter: { x in
                     if let ts = TimeInterval(x) {
                         let date = Date(timeIntervalSince1970: ts)
